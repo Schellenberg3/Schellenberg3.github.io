@@ -1,2 +1,4 @@
-This is my website test!!!
-*This text is bold*
+This is my website test!!! \n
+**This text is bold** \n
+*this is italic* \n
+***what it's both??***   
