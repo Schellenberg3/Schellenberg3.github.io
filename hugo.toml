@@ -97,15 +97,15 @@ copyright = 'Copyright © 2023 Andrew Schellenberg'
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/blog"
+    pageRef = "/blog"
     weight = 10
   [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "/cv"
+    pageRef = "/cv"
     weight = 30
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about"
+    pageRef = "/about"
     weight = 40
