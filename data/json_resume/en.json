@@ -1,0 +1,145 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Andrew Schellenberg",
+    "label": "Robotics and Computer Vision Researcher",
+    "image": "/headshot.png",
+    "email": "schellenberg.3@osu.edu",
+    "summary": 
+    "I'm a robotics and machine vision researcher. The way computers interpret, represent, and interact with the physical world fascinates me. You can find me swimming or biking. I like hanging out at coffee shops and occasionally write about my code. Reach out and say hi!",
+    "location": {
+      "city": "Columbus, Ohio and Washington, D.C.",
+      "region": "United States"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Schellenberg3",
+        "url": "https://github.com/Schellenberg3"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Artificially Intelligent Manufacturing Systems Lab",
+      "location": "Columbus, OH",
+      "position": "Graduate Research Associate",
+      "url": "https://cdme.osu.edu/aims-lab",
+      "startDate": "2022-01",
+      "endDate": "2023-12"
+    },
+    {
+      "name": "Strategic Ohio Council for Higher Education",
+      "location": "Wright-Patterson AFB, OH",
+      "position": "Graduate Student Researcher",
+      "url": "https://www.soche.org/",
+      "startDate": "2021-08",
+      "endDate": "2022-12"
+    },
+    {
+      "name": "Design Innovation and Simulation Lab",
+      "location": "Columbus, OH",
+      "position": "Undergraduate Research Assistant",
+      "url": "https://mae.osu.edu/disl",
+      "startDate": "2020-05",
+      "endDate": "2021-08"
+    },
+    {
+      "name": "Department of Mechanical Engineering",
+      "location": "Columbus, OH",
+      "position": "Teaching Assistant (Mechanics of Materials)",
+      "url": "https://mae.osu.edu/",
+      "startDate": "2019-08",
+      "endDate": "2020-05"
+    },
+    {
+      "name": "Versatile Structures Lab",
+      "location": "Columbus, OH",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2018-05",
+      "endDate": "2019-08"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ohio State University",
+      "url": "https://mae.osu.edu/",
+      "area": "Mechanical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2022-01",
+      "endDate": "2023-12"
+    },
+    {
+      "institution": "Ohio State University",
+      "url": "https://mae.osu.edu/",
+      "area": "Mechanical Engineering",
+      "studyType": "B.S.",
+      "startDate": "2016-08",
+      "endDate": "2021-05"
+    }
+  ],
+  "publications": [
+    {
+      "name": "A Comparison of Voxel Representations with View Selection Efficiency.",
+      "publisher": "In preparation.",
+      "releaseDate": "2024",
+      "summary": "A. Schellenberg and M. Groeber"
+    },
+    {
+      "name": "ForgeScan: A Framework for Exploring Voxel Representations and View Selection.",
+      "publisher": "In preparation.",
+      "releaseDate": "2023-12",
+      "summary": "A. Schellenberg"
+    },
+    {
+      "name": "A Workflow for Training Robotic End-to-End Visuomotor Policies in Simulation",
+      "publisher": "The Ohio State University",
+      "releaseDate": "2021-05",
+      "url": "https://kb.osu.edu/items/3e830d18-4482-4075-a449-906a50bfdb3b",
+      "summary": "A. Schellenberg"
+    },
+    {
+      "name": "Deterministic Snap-through Buckling and Energy Trapping in Axially-Loaded Notched Strips for Compliant Building Blocks",
+      "publisher": "Smart Materials and Structures",
+      "releaseDate": "2020-01",
+      "url": "https://doi.org/10.1088/1361-665X/ab6486",
+      "summary": "Y. Zhao, A. Maria Joseph, Z. Zhang, C. Ma, D. Gul, A. Schellenberg, and N. Hu. 2020"
+    },
+    {
+      "name": "Exploiting Spatial Heterogeneity and Response Characterization in Non-Uniform Architected Materials Inspired by Slime Mould Growth",
+      "publisher": "Bioinspiration & Biomimetics",
+      "releaseDate": "2019-09",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-3190/ab3b12",
+      "summary": "C. Ma, D. Zhang, Z. Zhang, H. Zhang, A. Schellenberg, D. Gul, P. Feng, and N. Hu"
+    },
+    {
+      "name": "Imperfections by Design: Interactive Buckling and Postbuckling in Architected Materials",
+      "publisher": "American Physical Society March Meeting Abstracts",
+      "releaseDate": "2019-01",
+      "url": "https://ui.adsabs.harvard.edu/abs/2019APS..MARL70248Z/abstract",
+      "summary": "Y. Zhao, A. Maria Joseph, C. Ma, M. Skibinski, B. Gul, A. Schellenberg, and N. Hu"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programing Languages",
+      "level": "including common libraries",
+      "keywords": ["C++", "Python", "CUDA", "Eigen", "OpenCV", "Open3D", "VTK & ParaView", "PyTorch & LibTorch", "TensorFlow"]
+    },
+    {
+      "name": "Robotics and Autonomous Systems",
+      "level": "focused in computer vision",
+      "keywords": ["Linus", "ROS2", "Docker", "Arduino", "Raspberry PI"]
+    },
+    {
+      "name": "Mechanical Design",
+      "level": "focused in kinematics and controls",
+      "keywords": ["SolidWorks", "Ansys", "MATLAB & Simulink"]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

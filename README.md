@@ -1,13 +1,7 @@
-Hi, welcome to my website!
+# Schellenberg3.github.io
 
+Thanks for stopping by. This repository is for my personal website at [schellenberg3.github.io](schellenberg3.github.io).
 
-
-I'm still learning how to build a website with GitHub Pages so this place might be a bit sparse right now... but check back soon!
-
-
-
-In the mean time, please feel free to check out these links:
-
-- Undergraduate research project [thesis](https://kb.osu.edu/handle/1811/92450) and [code](https://github.com/Schellenberg3/DISL_End_to_End_Learning) 
-- [LinkedIn](https://www.linkedin.com/in/andrew-schellenberg/)
-- [GitHub](https://github.com/Schellenberg3/)
+This website is built using [Hugo](https://gohugo.io/). The template used is [Gruvbox](https://themes.gohugo.io/themes/hugo-theme-gruvbox/),
+which is [licensed under MIT](https://github.com/schnerring/hugo-theme-gruvbox/blob/main/LICENSE). Thanks to
+[Michael Schnerring](https://github.com/schnerring/schnerring.github.io)
