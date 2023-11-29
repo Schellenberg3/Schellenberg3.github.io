@@ -4,9 +4,12 @@ title = 'Andrew Schllenberg'
 copyright = 'Copyright © 2023 Andrew Schellenberg'
 
 [markup]
-  # (Optional) To be able to use all Prism plugins, the theme enables unsafe
-  # rendering by default
-  #_merge = "deep"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # This setting allows inlining <script> and <style> tags in markdown,
+      # which is useful and required to use Prism plugins, but may be dangerous
+      # if the content isn't trustworthy.
+      unsafe = true
 
 [build]
   # The theme enables writeStats which is required for PurgeCSS
@@ -57,7 +60,52 @@ copyright = 'Copyright © 2023 Andrew Schellenberg'
     source = "node_modules/@tabler/icons/icons"
     target = "assets/tabler-icons"
 
+[imaging]
+  # JPEG and WebP quality
+  quality = 90
+
 [params]
     [params.logo]
       text = "Schellenberg.GitHub.io"
       url = "/"
+
+  [params.prism]
+    languages = [
+      "bash",
+      "c",
+      "clike",
+      "cpp",
+      "git",
+      "ignore",
+      "json",
+      "markdown",
+      "matlab",
+      "mermaid",
+      "powershell",
+      "python",
+      "yaml",
+      "json"
+    ]
+    plugins = [
+      "normalize-whitespace",
+      "toolbar",
+      "copy-to-clipboard",
+      "command-line"
+    ]
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 10
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv"
+    weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 40
