@@ -1,6 +1,6 @@
-module demo
+module github.com/Schellenberg3/Schellenberg3.github.io
 
-go 1.21.4
+go 1.21
 
 require (
 	github.com/schnerring/hugo-mod-json-resume v0.0.0-20231123180556-b8c687457cc0 // indirect
